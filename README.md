@@ -124,3 +124,5 @@ for login, resource CRUD, and reservation CRUD with a collection variable
 - Passwords are BCrypt-hashed and never serialized in API responses (`AppUser.password` is `@JsonIgnore`).
 - JWT signing secret is read from the `JWT_SECRET` environment variable — do
   not use the default dev value in any real deployment.
+
+   Final submission - Resource Booking System
